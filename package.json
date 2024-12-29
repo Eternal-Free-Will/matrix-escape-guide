@@ -5,13 +5,16 @@
   "scripts": {
     "build": "slidev build",
     "study": "slidev --open",
-    "export": "slidev export",
-    "dev": "slidev matrix-escape-guide.md -o -p 8080"
+    "dev": "slidev matrix-escape-guide.md -o -p 8080",
+    "export": "slidev export matrix-escape-guide.md --wait-until none"
   },
   "dependencies": {
     "@slidev/cli": "^0.51.0-beta.4",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.49.1"
   }
 }
