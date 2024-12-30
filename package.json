@@ -6,7 +6,8 @@
     "build": "slidev build",
     "study": "slidev --open",
     "dev": "slidev matrix-escape-guide.md -o -p 8080",
-    "export": "slidev export matrix-escape-guide.md --wait-until none"
+    "export": "slidev export matrix-escape-guide.md --wait-until none",
+    "export:ppt": "slidev export matrix-escape-guide.md --wait-until none --format pptx"
   },
   "dependencies": {
     "@slidev/cli": "^0.51.0-beta.4",

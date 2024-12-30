@@ -1,6 +1,7 @@
 ---
 exportFilename: 矩阵脱离指南PPT
-theme: seriph
+# theme: seriph
+theme: ./theme
 title: 矩阵脱离指南
 titleTemplate: '%s - 矩阵脱离指南'
 info: |
@@ -16,7 +17,7 @@ drawings:
   persist: false
 default: 
   transition: fade
-background: /images/bg-pawel-unsplash.jpg
+background: /images/kanata-8r_wuRw0fuI-unsplash.jpg
 class: text-center
 transition: fade
 mdc: true
