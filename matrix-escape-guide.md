@@ -32,6 +32,11 @@ mdc: true
 </div>
 
 ---
+src: ./pages/八强提升.md
+hide: false
+---
+
+---
 src: ./pages/不当真破一切幻.md
 hide: false
 ---
