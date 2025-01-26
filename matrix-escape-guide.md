@@ -33,15 +33,20 @@ mdc: true
 
 ---
 src: ./pages/八强提升.md
-hide: false
+hide: true
 ---
 
 ---
 src: ./pages/不当真破一切幻.md
-hide: false
+hide: true
 ---
 
 ---
 src: ./pages/提升快的技巧.md
+hide: true
+---
+
+---
+src: ./pages/潜催.md
 hide: false
 ---
